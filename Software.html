@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<!--
+	ZeroFour by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>GA-NIFS</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="table_style.css">
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div class="container">
+
+						<!-- Header -->
+							<header id="header">
+								<div class="inner">
+
+									<!-- Logo -->
+										<h1><a href="index.html" id="logo">GA-NIFS</a></h1>
+
+									<!-- Nav -->
+										<nav id="nav">
+											<ul>
+												<li><a href="index.html">Home</a></li>
+												<li><a href="Team.html">Team</a></li>
+												<li><a href="Targets.html">Targets</a></li>
+												<li class="current_page_item"><a href="Software.html">Software</a></li>
+												<li><a href="Papers.html">Papers</a></li>	
+												<li><a href="News.html">News</a></li>											
+											</ul>
+										</nav>
+								</div>
+							</header>
+					</div>
+				</div>
+
+			<!-- Main Wrapper -->
+				<div id="main-wrapper">
+					<div class="wrapper style1">
+						<div class="inner">
+							<div class="container">
+								<div id="content">
+									<article>
+											<header class="major">
+												<h2>Code</h2>
+											</header>
+
+											<p>
+												<strong> Improvements to the data reduction of JWST/NIRSpec IFS data </strong> <br>
+												We developped a few improvements with respect to the standard JWST data-reduction pipeline. 
+												The additional steps and corrections in the pipeline code  to improve the quality of the data
+												reduction are described in  Section 3 in 
+												<a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...679A..89P/abstract" target="_blank">Perna et al. (2023)</a>
+												and Section 1.1 in <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023arXiv230806317D/abstract" target="_blank">D'Eugenio et al. (2023a)</a>. <br>
+												
+										
+											</p>
+
+											<p>
+												<strong> Characterization of the Point-Spread Function of JWST/NIRSpec IFS data</strong> <br>
+												Short description, Francesco?<br>
+												<a href="https://ui.adsabs.harvard.edu/abs/2023arXiv230806317D/abstract" target="_blank">D'Eugenio et al. 2023</a>
+											</p>
+
+											<p>
+												<strong> Software for the removal of wiggles in JWST/NIRSpec data (M. Perna) </strong> <br>
+												The spatial undersampling in the NIRSpec IFS may result in apparent wiggles in the single-spaxel 
+												spectra close to the position of bright point sources, such as stars and QSOs. There is currently
+												no correction in the pipeline for these artefacts; large spatial extraction regions are hence required
+												to reduce the amplitude of the effect in extracted 1-D spectra 
+												(see <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...679A..89P/abstract" target="_blank">Perna et al. 2023</a>; 
+												<a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023AJ....166...45L/abstract" target="_blank">Law et al. 2023</a>). 
+												There are situations where a point source overlaps with extended emission, thus requiring to disentangle
+												the flux from both sources, for instance,  in studies of QSO hosts and their close environment. <br>
+												We developped a code that allows to subtract the spurious wiggles at single-spaxel level. The code is written
+												in python and it is publicly available on github. <br>
+												<a style="color: teal" href="https://github.com/micheleperna/JWST-NIRSpec_wiggles" target="_blank">Link to github</a>										
+											</p>										
+											<p>
+												<strong> QubeSpec: A powerful python package for JWST/NIRSpec IFU data analysis (J. Scholtz) </strong> <br>
+												QubeSpec is a simple but powerful python package to fit optical astronomical spectra and more importantly analysing IFS cube 
+												from JWST/NIRSpec, JWST/MIRI, VLT/KMOS and VLT/SINFONI. The code has built models for fitting Halpha, [OIII], Hbeta, [SII] and 
+												[NII] of galaxies, galaxies with outflows, Type-1 AGN and Quasars.<br>
+												<a style="color: teal" href="https://github.com/honzascholtz/Qubespec" target="_blank">Link to github</a>
+											</p>
+
+										
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+
+			<!-- Footer Wrapper -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+						<div class="row">
+							<div class="col-12">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; GA-NIFS. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
