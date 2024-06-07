@@ -1,0 +1,46 @@
+HTML CSSResult Skip Results Iframe
+EDIT ON
+table {
+  text-align: left;
+  position: relative;
+  border-collapse: collapse; 
+  background-color: #f6f6f6;
+  text-shadow: nine;
+}/* Spacing */
+td, th {
+  border: 1px solid black;
+  padding: 20px;
+}
+th {
+  background: #6e4320;
+  color: white;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+.primary{
+  background-color: #ffffff
+}
+
+tr td {
+    color: #000000;
+}
+
+tbody:nth-child(odd) {
+  background: #b5b5b5;
+}
+
+tfoot > tr  {
+  background: white;
+  color: black;
+}
+
+tbody:hover td[rowspan],
+tr:hover td {
+  background: #5cb8ff;
+}
+
+
+
+Resources
