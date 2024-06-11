@@ -1795,7 +1795,8 @@ input, select, textarea {
 		width: 940px;
 		margin: 0 auto;
 		overflow: hidden;
-		padding: 9em 0 6em 0;
+		/*padding: 9em 0 6em 0; */
+		padding: 1em 0 1em 0;
 	}
 
 		#banner h2 {
