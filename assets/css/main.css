@@ -1673,9 +1673,11 @@ input, select, textarea {
 	.box2 {
 		display: flex;
    		align-items:center;
-   		border-bottom: solid 1px #dbdbdb;
-		margin: 0 0 2.75em 0;
-		padding: 0 0 2.75em 0;
+   		/*border-bottom: solid 1px #dbdbdb;*/
+   		/*margin: 0 0 2.75em 0; */
+		margin: 0 0 0em 0;
+		/*padding: 0 0 2.75em 0;*/
+		padding: 0 0 0em 0;
 		}
 /* Icons */
 
