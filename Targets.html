@@ -81,14 +81,15 @@
 												<h2>Published Targets</h2>
 											</header>
 											</head>
-												<table class="styled-table" style="font-size: 12px;">
+												<table class="styled-table" style="font-size: 12px;" id="PublishedTargets">
 													<tbody>
 														<tr>
-															<th colspan="1">Source ID</th>
-															<th colspan="1">RA</th>
-															<th colspan="1">Dec</th>
-															<th colspan="1">Redshift</th>
-															<th colspan="1">GA-NIFS Papers</th>
+															<th colspan="1" onclick="sortTableChar(0)">&nbsp;&#x2b83; Source ID</th>
+															<th colspan="1" onclick="sortTableRA(1)">&nbsp;&#x2b83; RA</th>
+															<th colspan="1" onclick="sortTableDec(2)">&nbsp;&#x2b83; Dec</th>
+															<th colspan="1" onclick="sortTableNum(3)">&nbsp;&#x2b83; Redshift</th>
+															<!--<th colspan="1" onclick="sortTableChar(4)">GA-NIFS Papers</th> -->
+															<th colspan="1" >GA-NIFS Papers</th>
 														</tr>
 													</tbody>
 													<tbody>
@@ -336,6 +337,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/tables.js"></script>
 
 	</body>
 </html>
