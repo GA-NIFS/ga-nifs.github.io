@@ -93,6 +93,36 @@
 												
 											</p>
 
+										<p>
+												<strong> Wavelength calibration of R100 data </strong> <br>
+												It has been noted that there is a systematic wavelength calibration offset which affects the R100 mode in NIRSpec IFS observations. 
+												In  <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2025arXiv251214874P/abstract" target="_blank">Perna et al. (2026)</a>, we investigate the wavelength calibration accuracy of the NIRSpec R100 data, by comparing the observed velocities of 
+												emission lines in the low-resolution R100 spectra with those obtained from the high-resolution R2700 data for the same spatial regions 
+												in three (small) groups of galaxies.We derive an empirical calibration to correct the wavelength of the R100 data.
+												We found a systematic offset of &Delta;&lambda; = 24 &plusmn; 5 A. We recommend applying this correction when using R100 data 
+												for redshift measurements in the absence of an absolute wavelength reference.
+												The details are reported in appendix B of <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2025arXiv251214874P/abstract" target="_blank">Perna et al. (2026)</a>. <br>
+												
+												<div class="container">
+													<div class="row">
+
+														<div class="col-6 col-12-medium imp-medium">
+															<img src="images/LBQScentralspaxel1041_mod.jpg" alt=""  style="width:100%" />
+														</div>
+
+														<div class="col-6 col-12-medium">
+															<i> Modelling of the wiggles in single-spaxel spectra. <br>
+															Top panel: integrated LBQS 0302−0019spectrum (orange curve), single-spaxel spectrum (blue), and wiggles (grey). The red curve represents the best-fit model of the wiggles. <br>
+														Central panel: Single-spaxel spectrum after the correction for the wiggles (dark blue), in comparison with the integrated spectrum (orange); the grey curve represents the new residuals with respect to the integrated spectrum. <br>
+														Bottom panel: Best parameter for the frequency of the sinusoidal functions used to model the wiggles (blue points). </i>
+
+
+														</div>
+													</div>
+												</div>
+											</p>	
+										
+
 											<p>
 												<strong> Software for the removal of wiggles in JWST/NIRSpec data (M. Perna) </strong> <br>
 												The spatial undersampling in the NIRSpec IFS may result in apparent wiggles in the single-spaxel 
@@ -124,8 +154,8 @@
 														</div>
 													</div>
 												</div>
-											
-											</p>										
+											</p>	
+										
 											<p>
 												<strong> QubeSpec: A powerful python package for JWST/NIRSpec IFU data analysis (J. Scholtz) </strong> <br>
 												QubeSpec is a simple but powerful python package to fit optical astronomical spectra and more importantly analysing IFS cube 
