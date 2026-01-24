@@ -58,11 +58,18 @@
 											<p>
 												In this page, we collect some resources that can be useful for the data reduction of NIRSpec IFS data.
 												We also present some softwares developped by members of the GA-NIFS team for the analysis of NIRSpec IFS data. 
+												<ul>
+												  <li><a href="#datared">Data reduction of JWST/NIRSpec IFS data</a></li>
+												  <li><a href="#PSF">PSF characterization</a></li>
+												  <li><a href="#wave_cal">R100 wavelength calibration</a></li>
+												  <li><a href="#wiggles"> Wiggles removal</a></li>
+												  <li><a href="#qubespec">QubeSpec emission line fitting tool</a></li>
+												</ul>
 
 
 											</p>
 										
-											<p>
+											<p id="datared">
 												<strong> <span style="font-size: 1.5em;">Improvements to the data reduction of JWST/NIRSpec IFS data </span></strong> <br>
 												We developped a few improvements with respect to the standard JWST data-reduction pipeline. 
 												The additional steps and corrections in the pipeline code  to improve the quality of the data
@@ -73,7 +80,7 @@
 										
 											</p>
 
-											<p>
+											<p id="PSF">
 												<strong> Characterization of the Point-Spread Function of JWST/NIRSpec IFS data</strong> <br>
 												In <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2023arXiv230806317D/abstract" target="_blank">D'Eugenio et al. (2024)</a>, 
 												we provide three independent measurements of the shape and size of the NIRSpec/IFS PSF. The first measurement uses observations 
@@ -93,7 +100,7 @@
 												
 											</p>
 
-										<p>
+										<p id="wave_cal">
 												<strong> Wavelength calibration of R100 data </strong> <br>
 												It has been noted that there is a systematic wavelength calibration offset which affects the R100 mode in NIRSpec IFS observations. 
 												In  <a style="color: teal" href="https://ui.adsabs.harvard.edu/abs/2025arXiv251214874P/abstract" target="_blank">Perna et al. (2026)</a>, we investigate the wavelength calibration accuracy of the NIRSpec R100 data, by comparing the observed velocities of 
@@ -124,7 +131,7 @@
 											</p>	
 										
 
-											<p>
+											<p id="wiggles">
 												<strong> Software for the removal of wiggles in JWST/NIRSpec data (M. Perna) </strong> <br>
 												The spatial undersampling in the NIRSpec IFS may result in apparent wiggles in the single-spaxel 
 												spectra close to the position of bright point sources, such as stars and QSOs. There is currently
@@ -157,7 +164,7 @@
 												</div>
 											</p>	
 										
-											<p>
+											<p id="qubespec">
 												<strong> QubeSpec: A powerful python package for JWST/NIRSpec IFU data analysis (J. Scholtz) </strong> <br>
 												QubeSpec is a simple but powerful python package to fit optical astronomical spectra and more importantly analysing IFS cube 
 												from JWST/NIRSpec, JWST/MIRI, VLT/KMOS and VLT/SINFONI. The code has built models for fitting Halpha, [OIII], Hbeta, [SII] and 
